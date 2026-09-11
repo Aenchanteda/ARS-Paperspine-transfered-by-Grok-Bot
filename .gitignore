@@ -1,0 +1,35 @@
+# OS / editor
+.DS_Store
+**/.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Python
+__/
+**/__pycache__/
+**/*.pyc
+**/.venv/
+**/venv/
+
+# Secrets & credentials (never commit)
+**/.env
+**/.env.*
+**/auth.json
+**/*secret*
+**/*credentials*
+**/*.pem
+**/*.key
+**/*token*
+
+# Paper / clinical working artifacts
+paper_rewriting_output/
+**/paper_rewriting_output/
+*.docx
+*.pdf
+!**/examples/**/*.pdf
+**/clinical_data/
+**/private_drafts/
+
+# Local-only Grok cache markers
+.grok-checkout/

@@ -1,0 +1,38 @@
+{
+  "source_host": "MacBook-Pro-3.local",
+  "synced_from": {
+    "ars_codex": "/Users/richard/.codex/skills/academic-research-suite",
+    "paper_spine": "/Users/richard/.codex/skills/paper-spine"
+  },
+  "ars_adapter_version": "0.1.28",
+  "ars_manifest_keys": [
+    "adapter_version",
+    "excluded_patterns",
+    "generated_date",
+    "generated_for",
+    "historical_artifacts",
+    "inactive_upstream_scripts",
+    "name",
+    "packaging",
+    "runtime_notes",
+    "source_repositories",
+    "version_file"
+  ],
+  "paperspine_install_state": {
+    "installed_version": "4.0.0",
+    "installed_at": "2026-09-09T06:55:41.994369Z",
+    "source": {
+      "repository": "https://github.com/WUBING2023/PaperSpine",
+      "channel": "main",
+      "manifest_url": "https://raw.githubusercontent.com/WUBING2023/PaperSpine/main/dist/paperspine_version.json",
+      "archive_url": "https://github.com/WUBING2023/PaperSpine/archive/refs/heads/main.zip"
+    },
+    "targets": [
+      "claude",
+      "codex",
+      "openclaw",
+      "hermes"
+    ],
+    "preserved_config_path": "/Users/richard/.paperspine/config.json"
+  }
+}
